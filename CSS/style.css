@@ -1,0 +1,204 @@
+html{
+	font-size: 62.5%;
+	height: 100%;
+}
+body{
+	width: 980px;
+	margin:0 auto;
+	height: 100%;
+
+}
+.header{
+	background-color: #F5B4B3;
+	height: 50px;
+	font-size: 1.5rem;
+	
+}
+.logo_image{
+	width: 110px;
+	float: left;
+}
+
+.top_menu li{
+	float: left;
+	padding: 15px;
+	width: auto;
+}
+.top_menu li a{
+	color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+.image_area{
+  width: 100%;
+}
+.side_menu{float: left;}
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+.side_menu li a:hover{
+	opacity: 0.6;
+}
+.banner img{
+  width: 300px;
+}
+.banner{
+  margin-top: 20px;
+}
+.wrapper{
+	margin-top: 10px;
+
+}
+.content{
+  width: 660px;
+  margin-left:20px;
+  float: left;
+  font-size: 1.5rem;
+}
+.news{
+  height: 200px;
+  background-color: #FCE8E7;
+  padding: 20px;
+  overflow: scroll;
+  line-height: 2;
+
+}
+.footer{
+float: left;
+  background-color: #4D4D4D;
+  height: 100px;
+  width: 100%; 
+  position: relative;
+  bottom: 0;
+  display: table;
+
+  
+}
+.footer p {
+	
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 50px;
+  text-align: center;
+   vertical-align: middle;
+   display: table-cell;
+}
+ul.top_menu{
+	float: right;
+}
+.container{
+	width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.banner_content {
+  /* Définir la marge supérieure */
+  margin-top: 10px;
+  /* <table>​ */
+  display: table;
+}
+.banner_content p {
+  
+  display: table-cell;
+}
+.banner_content p img {
+  /* Correction de la taille de l'image */
+  width: 100%;
+}
+.im2{
+	width: 25%;
+}
+.im3{
+	width: 25%;
+}
+.point{
+	background-color: #FCECEC;
+}
+.point a{
+  color: #4D4D4D;
+}
+
+/*CSS partie company*/
+/*CSS partie company*/
+/*CSS partie company*/
+
+.company tr{
+  height: 5rem;
+}
+
+
+.company th{
+  width: 100px;
+  background-color: #B1B1B1;
+  color:#fff;
+  border-bottom: 1px solid white;
+}
+.company td{
+  width: 560px;
+  padding-left: 1rem;
+  border: solid 1px #B1B1B1;
+}
+.company{
+	margin-top: 10px;
+	border-collapse: collapse;
+}
+.company tr :last-child th{
+	border-color: #B1B1B1;
+}
+/*CSS formulaire de renseignement*/
+/*CSS partie company*/
+.formulaire{
+	margin-top: 10px;
+}
+.form1{
+	width: 480px;
+	margin-left: 10px;
+}
+th{
+	text-align: right;
+	width: 150px;
+	height: 7rem;
+}
+.bouton{
+  margin-left: 50%;
+  margin-right: 50%;
+  font-size: 3rem;
+  color: white;
+  background-color: #008B8B;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.bouton:hover{
+  opacity: 0.5;
+}
+
